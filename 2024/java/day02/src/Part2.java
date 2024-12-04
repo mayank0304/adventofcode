@@ -9,7 +9,7 @@ public class Part2 extends Method {
 
     public static void main(String[] args) {
         try {
-            List<String> lines = Files.readAllLines(Paths.get("2024/day02/input/input.txt"));
+            List<String> lines = Files.readAllLines(Paths.get("2024/java/day02/input/input.txt"));
             List<List<Integer>> data = new ArrayList<>();
             for (String line : lines) {
                 String[] parts = line.trim().split("\\s+");

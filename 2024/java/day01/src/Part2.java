@@ -9,7 +9,7 @@ public class Part2 {
 
     public static void main(String[] args) {
         try {
-            List<String> lines = Files.readAllLines(Paths.get("day01/input/input.txt"));
+            List<String> lines = Files.readAllLines(Paths.get("2024/java/day01/input/input.txt"));
             List<String> leftElements = new ArrayList<>();
             List<String> rightElements = new ArrayList<>();
             for (String line : lines) {
